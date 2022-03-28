@@ -1,7 +1,38 @@
+.container{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.row{
+    width: 100%;
+}
+
 .box {
-    height: 100px;
-    width: 100px;
-    border: 1px solid;
+    height: 50px;
+    width: 100%;
+    border: 1px solid white;
     background-color: #006cfa;
     color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.box.father{
+    padding: 0.5rem;
+    height: auto;
+}
+
+.inner-box{
+    height: calc50px;
+    width: 100%;
+    border: 1px solid #006cfa;
+    background-color: #00e165;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+h1, h2 {
+    font-size: 1.5rem;
+    font-weight:bold ;
 }
